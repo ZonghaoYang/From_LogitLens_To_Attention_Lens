@@ -1,0 +1,82 @@
+{
+  "cfg": {
+    "model": "pythia-410m-deduped",
+    "dtype": "bfloat16",
+    "dataset": "wikitext103",
+    "layers": [
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "kurtosis_th": 5.0,
+    "n_prompts": 8000,
+    "max_len": 128,
+    "delta_sigma": 5.0,
+    "seed": 42,
+    "n_demo": 6,
+    "top_token_k": 5,
+    "report_top_n": 5,
+    "prob_thresh": 0.05,
+    "save_markdown": true,
+    "save_ansi": true,
+    "out_dir": "/content/drive/MyDrive/AttentionLens/results"
+  },
+  "layer": 16,
+  "neuron": {
+    "neuron": 3489,
+    "score": 0.503173828125,
+    "top_geo": [
+      "Russia",
+      "Paris",
+      "Germany",
+      "London",
+      "Bern"
+    ]
+  },
+  "prob_base": [
+    -11.667010307312012,
+    -12.680030822753906,
+    -10.839210510253906,
+    -12.079200744628906,
+    -12.3092622756958,
+    -12.076189994812012,
+    -14.4166841506958
+  ],
+  "prob_plus": [
+    -12.185839653015137,
+    -13.325201988220215,
+    -11.428027153015137,
+    -12.440722465515137,
+    -12.99703598022461,
+    -12.338183403015137,
+    -14.856736183166504
+  ],
+  "prob_minus": [
+    -11.895828247070312,
+    -12.877598762512207,
+    -11.666661262512207,
+    -12.309524536132812,
+    -12.916905403137207,
+    -12.317703247070312,
+    -14.842930793762207
+  ],
+  "ratio_plus": [
+    0.5952169299125671,
+    0.5245727896690369,
+    0.5549836158752441,
+    0.69661545753479,
+    0.5026940107345581,
+    0.7695160508155823,
+    0.6440029144287109
+  ],
+  "demo_prompts": [
+    "Ireland : T Edwards , DC Woods , A Walpole , MJ Bulger , J Stevenson , RG Warren capt . , HW Andrews , EG Forrest , JH O 'Conor , JG Moffatt , JN Lytle , J Waites , R Stevenson , JC Jameson , FO Stoker",
+    "In 2006 , the song \" Jihad \" from Slayer 's 2006 album Christ Illusion drew comparison to \" Angel of Death \" . \" Jihad \" deals with the September 11 , 2001 , attacks , and tells the story from a terrorist 's perspective . Vocalist Araya was expecting the s",
+    "The type specimen of Homarus gammarus was a lectotype selected by Lipke Holthuis in 1974 . It came from 57 \u00b0 53 \u2032 N 11 \u00b0 32 \u2032 E , near Marstrand , Sweden ( 48 kilometres or 30 miles northwest of Gothenburg ) , but both it and the paralectotypes have since ",
+    "Scientology formulated a \" Clear Germany \" strategy in 1994 \u2013 similar to equivalent strategies pursued by Scientology in other countries and regions of the world \u2013 with the long @-@ term aim of transforming German society in line with the Scientological id",
+    "Scientologists have been banned from joining major political parties in Germany such as the Christian Democratic Union , the Christian Social Union of Bavaria , the Social Democratic Party of Germany and the Free Democratic Party . Existing Scientologist m",
+    "To ensure the safety of the merchant ships gathering at Macau in the winter of 1797 \u2013 98 , the British commander in the East Indies , Rear @-@ Admiral Peter Rainier , sent a convoy to China escorted by the frigates HMS Sybille and HMS Fox and commanded by "
+  ]
+}
