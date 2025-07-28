@@ -1,0 +1,11 @@
+model        : "pythia-410m-deduped"
+dtype        : "float16"
+heatmap_json : "/content/drive/MyDrive/AttentionLens/results/heatmap_20250707_010701.json"
+dataset      : "wikitext103"
+dkl_thr     : 1.5
+lambdas     : [-5, -3, 3, 5]
+n_prompts   : 2000
+max_len     : 128
+batch       : 8
+seed        : 42
+out_dir     : "/content/drive/MyDrive/From_LogitLens_To_AttentionLens/results"

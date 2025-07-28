@@ -1,0 +1,17 @@
+# configs/rq1_3_geo_sweep.yaml
+model        : "pythia-410m-deduped"
+dtype        : "bfloat16"
+dataset      : "wikitext103"
+layers       : [15, 16, 17, 18, 19]
+kurtosis_th  : 5.0
+n_prompts    : 8000
+max_len      : 128
+delta_sigma  : 5.0
+seed         : 42
+n_demo       : 6
+top_token_k  : 5
+report_top_n : 5
+prob_thresh  : 0.05
+save_markdown: true
+save_ansi    : true
+out_dir      : "/content/drive/MyDrive/From_LogitLens_To_AttentionLens/results"

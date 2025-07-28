@@ -1,0 +1,11 @@
+# configs/obsprop.yaml
+model    : "pythia-410m-deduped"
+dtype    : "float16"
+dataset  : "wikitext103_sub5k"
+layer    : 17
+heads    : [1,4,5]
+n_prompts: 5000
+batch    : 16
+max_len  : 128
+seed     : 42
+out_dir  : "/content/drive/MyDrive/From_LogitLens_To_AttentionLens/results"

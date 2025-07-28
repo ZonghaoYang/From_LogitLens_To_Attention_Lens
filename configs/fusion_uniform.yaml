@@ -1,0 +1,12 @@
+model      : "pythia-410m-deduped"
+dtype      : "float16"
+dataset    : "wikitext103_sub5k"
+layer      : 17
+heads      : [1,4,5,13,12,11,0,9]
+weight     : "uniform"
+calib_size : 128
+seeds      : [42, 99, 123]
+n_prompts  : 1000
+max_len    : 128
+batch      : 16
+out_dir    : "/content/drive/MyDrive/From_LogitLens_To_AttentionLens/results"

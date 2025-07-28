@@ -1,0 +1,9 @@
+# configs/neuron_probe.yaml
+model      : "pythia-410m-deduped"
+dataset    : "wikitext103"
+layer_ids  : [4, 17, 18]
+neuron_ids : [[1230], [1600], [2042]]
+n_prompts  : 10000
+batch_size : 8
+seed       : 42
+out_dir    : "/content/drive/MyDrive/From_LogitLens_To_AttentionLens/results"

@@ -1,0 +1,10 @@
+model    : "pythia-410m-deduped"
+dtype    : "float16"
+dataset  : "trex"
+layer    : 2
+k_sub    : 8
+n_prompts: 5000
+max_len  : 128
+batch    : 16
+seed     : 42
+out_dir  : "/content/drive/MyDrive/From_LogitLens_To_AttentionLens/results"
